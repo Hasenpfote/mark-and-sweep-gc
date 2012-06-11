@@ -8,6 +8,7 @@
 #include <psapi.h>
 #include "gc.h"
 
+
 #define GC_TEST	// コメントアウトでメモリリークを確認
 
 static int WorkSize(DWORD procId = 0);
